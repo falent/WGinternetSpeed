@@ -349,54 +349,18 @@ def parseargs(args):
 def perform_speedtest(opts):
     speedtest = SpeedTest(opts.server, opts.debug, opts.runs)
 
-    if opts.format in __supported_formats__:
-
-        if opts.format == 'default':
-
-            print('Using server: %s' % speedtest.host)
-
-            if opts.mode & 4 == 4:
-                print('Ping: %d ms' % speedtest.ping())
-
-            if opts.mode & 1 == 1:
-                print('Download speed: %s' % pretty_speed(speedtest.download()))
-
-            if opts.mode & 2 == 2:
-                print('Upload speed: %s' % pretty_speed(speedtest.upload()))
-
-        else:
-            stats = dict(server=speedtest.host)
-            if opts.mode & 4 == 4:
-                stats['ping'] = speedtest.ping()
-            if opts.mode & 1 == 1:
-                stats['download'] = speedtest.download()
-            if opts.mode & 2 == 2:
-                stats['upload'] = speedtest.upload()
-            if opts.format == 'json':
-                from json import dumps
-                print(dumps(stats))
-            elif opts.format == 'xml':
-                from xml.etree.ElementTree import Element, tostring
-                xml = Element('data')
-                for key, val in stats.items():
-                    child = Element(key)
-                    child.text = str(val)
-                    xml.append(child)
-                print(tostring(xml).decode('utf-8'))
-
-    else:
-        raise Exception('Output format not supported: %s' % opts.format)
+    download = str(pretty_speed(speedtest.download()))
+    upload = str(pretty_speed(speedtest.upload()))
+    ping = str(round(speedtest.ping(),2))
 
 
-    fields=[" | "+str(tm.strftime('%d-%m %H:%M'))+" | "," | "+str(round(speedtest.ping(),2))+ " ms |"," | "+str(pretty_speed(speedtest.download()))+" | ", " | "+str(pretty_speed(speedtest.upload()))+" | "," | "+str(speedtest.host)+" | " ]
-    with open(r'/var/www/html/README.md', 'a') as f:
-        writer = csv.writer(f)
-        writer.writerow(fields)
 
-    fields=[str(tm.strftime('%d-%m %H:%M')),str(round(speedtest.ping(),2))+ " ms ",str(pretty_speed(speedtest.download())),str(pretty_speed(speedtest.upload())),str(speedtest.host) ]
+
+    fields=[str(tm.strftime('%d-%m %H:%M')),ping+ " ms ", download,upload,str(speedtest.host) ]
     with open(r'/var/www/html/result.csv', 'a') as f:
         writer = csv.writer(f)
         writer.writerow(fields)
+
 
 def main(args=None):
     opts = parseargs(args)
