@@ -394,13 +394,6 @@ def perform_speedtest(opts):
         writer.writerow(fields)
 
 
-    fields=[" | "+str(tm.strftime('%d-%m %H:%M'))+" | "," | "+str(round(speedte$
-    with open(r'/var/www/html/result.csv', 'a') as f:
-        writer = csv.writer(f)
-        writer.writerow(fields)
-
-
-
 def main(args=None):
     opts = parseargs(args)
     init_logging(logging.DEBUG if opts.verbose else logging.WARNING)
