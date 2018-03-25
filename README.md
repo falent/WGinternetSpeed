@@ -10,3 +10,7 @@
  | 25-03 12:50 | , | 43.55 ms |, | 13.97 Mbps | , | 920.86 Kbps | , | speedtest.glasfaser-ostbayern.de | 
  | 25-03 13:00 | , | 43.17 ms |, | 12.78 Mbps | , | 772.13 Kbps | , | speedtest.glasfaser-ostbayern.de | 
  | 25-03 13:05 | , | 199.69 ms |, | 9.84 Mbps | , | 695.27 Kbps | , | speedtest.internetx.de | 
+ | 25-03 13:30 | , | 398.42 ms |, | 5.62 Mbps | , | 925.48 Kbps | , | speed10.komro.net | 
+ | 25-03 13:50 | , | 41.36 ms |, | 8.82 Mbps | , | 908.77 Kbps | , | speedtest.glasfaser-ostbayern.de | 
+ | 25-03 14:00 | , | 45.9 ms |, | 13.97 Mbps | , | 851.79 Kbps | , | speed10.komro.net | 
+ | 25-03 14:05 | , | 43.44 ms |, | 16.35 Mbps | , | 914.50 Kbps | , | speedtest.internetx.de | 
