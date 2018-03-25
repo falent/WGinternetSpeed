@@ -389,7 +389,7 @@ def perform_speedtest(opts):
 
 
     fields=[" | "+str(tm.strftime('%d-%m %H:%M'))+" | "," | "+str(round(speedtest.ping(),2))+ " ms |"," | "+str(pretty_speed(speedtest.download()))+" | ", " | "+str(pretty_speed(speedtest.upload()))+" | "," | "+str(speedtest.host)+" | " ]
-    with open(r'/var/www/html/result.md', 'a') as f:
+    with open(r'/var/www/html/README.md', 'a') as f:
         writer = csv.writer(f)
         writer.writerow(fields)
 
