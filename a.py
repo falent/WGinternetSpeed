@@ -393,6 +393,10 @@ def perform_speedtest(opts):
         writer = csv.writer(f)
         writer.writerow(fields)
 
+    fields=[str(tm.strftime('%d-%m %H:%M')),str(round(speedtest.ping(),2))+ " ms ",str(pretty_speed(speedtest.download())),str(pretty_speed(speedtest.upload())),str(speedtest.host) ]
+    with open(r'/var/www/html/result.csv', 'a') as f:
+        writer = csv.writer(f)
+        writer.writerow(fields)
 
 def main(args=None):
     opts = parseargs(args)
@@ -425,4 +429,5 @@ LOG = logging.getLogger(__program__)
 
 if __name__ == '__main__':
     main()
+
 
