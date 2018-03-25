@@ -1,25 +1,2 @@
-Datum        ,  ping     ,  download   ,  upload       ,  server  
-
-25-03 11:57,36.6 ms ,11.01 Mbps,717.85 Kbps,speedtest.internetx.de
-25-03 12:00,38.45 ms ,10.20 Mbps,680.67 Kbps,speedtest.glasfaser-ostbayern.de
-25-03 12:05,41.25 ms ,11.40 Mbps,940.09 Kbps,speedtest.internetx.de
-25-03 12:30,37.63 ms ,12.65 Mbps,928.87 Kbps,speedtest.internetx.de
-25-03 12:50,41.34 ms ,12.24 Mbps,685.26 Kbps,speedtest.glasfaser-ostbayern.de
-25-03 13:00,37.57 ms ,12.74 Mbps,774.48 Kbps,speedtest.glasfaser-ostbayern.de
-25-03 13:05,40.25 ms ,9.44 Mbps,675.23 Kbps,speedtest.internetx.de
-25-03 13:30,42.05 ms ,15.02 Mbps,928.89 Kbps,speed10.komro.net
-25-03 13:50,43.18 ms ,11.83 Mbps,827.45 Kbps,speedtest.glasfaser-ostbayern.de
-25-03 14:00,43.96 ms ,12.67 Mbps,883.40 Kbps,speed10.komro.net
-25-03 14:05,39.95 ms ,14.53 Mbps,917.65 Kbps,speedtest.internetx.de
-25-03 14:30,36.82 ms ,15.33 Mbps,928.79 Kbps,speedtest.internetx.de
-25-03 14:50,119.44 ms ,12.28 Mbps,748.38 Kbps,speedtest.internetx.de
-25-03 15:05,38.37 ms ,11.84 Mbps,906.11 Kbps,speedtest.internetx.de
-25-03 15:30,39.1 ms ,11.17 Mbps,931.69 Kbps,speedtest.internetx.de
-25-03 15:50,40.19 ms ,11.19 Mbps,889.40 Kbps,speedtest.glasfaser-ostbayern.de
-25-03 16:01,142.19 ms ,6.84 Mbps,800.75 Kbps,speedtest.glasfaser-ostbayern.de
-25-03 16:05,107.74 ms ,6.59 Mbps,865.14 Kbps,speedtest.glasfaser-ostbayern.de
-25-03 16:30,101.79 ms ,5.44 Mbps,870.22 Kbps,speedtest.glasfaser-ostbayern.de
-25-03 16:50,88.59 ms ,12.98 Mbps,827.18 Kbps,speed10.komro.net
-25-03 17:05,38.68 ms ,14.30 Mbps,579.76 Kbps,speedtest.internetx.de
-25-03 17:30,38.19 ms ,14.63 Mbps,886.05 Kbps,speedtest.glasfaser-ostbayern.de
-25-03 18:00,49.65 ms ,9.70 Mbps,865.78 Kbps,speedtest.internetx.de
+datum, ping, download, , server
+25-03 23:23,47.12 ms ,13.44 Mbps, ,speedtest.internetx.de

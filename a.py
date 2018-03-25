@@ -350,14 +350,14 @@ def perform_speedtest(opts):
     speedtest = SpeedTest(opts.server, opts.debug, opts.runs)
 
     download = str(pretty_speed(speedtest.download()))
-    upload = str(pretty_speed(speedtest.upload()))
+    #upload = str(pretty_speed(speedtest.upload()))
     ping = str(round(speedtest.ping(),2))
 
 
 
 
-    fields=[str(tm.strftime('%d-%m %H:%M')),ping+ " ms ", download,upload,str(speedtest.host) ]
-    with open(r'/var/www/html/result.csv', 'a') as f:
+    fields=[str(tm.strftime('%d-%m %H:%M')),ping+ " ms ", download," ",str(speedtest.host) ]
+    with open(r'/var/www/html/WGinternetSpeed/result.csv', 'a') as f:
         writer = csv.writer(f)
         writer.writerow(fields)
 
