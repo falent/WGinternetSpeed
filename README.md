@@ -17,3 +17,7 @@
  | 25-03 14:30 | , | 37.27 ms |, | 14.29 Mbps | , | 923.30 Kbps | , | speedtest.internetx.de | 
  | 25-03 14:50 | , | 120.51 ms |, | 9.74 Mbps | , | 846.28 Kbps | , | speedtest.internetx.de | 
  | 25-03 15:05 | , | 37.53 ms |, | 14.16 Mbps | , | 932.05 Kbps | , | speedtest.internetx.de | 
+ | 25-03 15:30 | , | 37.91 ms |, | 10.24 Mbps | , | 788.65 Kbps | , | speedtest.internetx.de | 
+ | 25-03 15:50 | , | 41.07 ms |, | 8.44 Mbps | , | 886.41 Kbps | , | speedtest.glasfaser-ostbayern.de | 
+ | 25-03 16:00 | , | 81.79 ms |, | 4.55 Mbps | , | 679.15 Kbps | , | speedtest.glasfaser-ostbayern.de | 
+ | 25-03 16:05 | , | 96.56 ms |, | 6.51 Mbps | , | 856.87 Kbps | , | speedtest.glasfaser-ostbayern.de | 
