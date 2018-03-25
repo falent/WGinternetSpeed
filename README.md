@@ -24,3 +24,5 @@
  | 25-03 16:30 | , | 66.59 ms |, | 6.01 Mbps | , | 869.70 Kbps | , | speedtest.glasfaser-ostbayern.de | 
  | 25-03 16:50 | , | 75.35 ms |, | 12.17 Mbps | , | 884.71 Kbps | , | speed10.komro.net | 
  | 25-03 17:05 | , | 38.94 ms |, | 15.68 Mbps | , | 931.46 Kbps | , | speedtest.internetx.de | 
+ | 25-03 17:30 | , | 38.89 ms |, | 13.75 Mbps | , | 650.91 Kbps | , | speedtest.glasfaser-ostbayern.de | 
+ | 25-03 18:00 | , | 51.76 ms |, | 12.03 Mbps | , | 677.38 Kbps | , | speedtest.internetx.de | 
